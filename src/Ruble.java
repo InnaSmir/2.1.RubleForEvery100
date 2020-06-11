@@ -5,11 +5,10 @@ public class Ruble {
         int bonus = 1;
         if (customerAmount > minLimit) {
             bonus = 1;
-        }
-        else {
+        } else {
             bonus = 0;
         }
-        int totalBonus = customerAmount / 100;
+        int totalBonus = customerAmount / 100 * bonus;
         System.out.println(totalBonus);
     }
 }
