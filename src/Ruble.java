@@ -1,6 +1,6 @@
 public class Ruble {
     public static void main(String[]args) {
-        int customerAmount = 1000;
+        int customerAmount = 2600;
         int minLimit = 1000;
         int bonus = 1;
         if (customerAmount >= minLimit) {
